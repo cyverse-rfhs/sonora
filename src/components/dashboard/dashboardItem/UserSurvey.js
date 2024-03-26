@@ -31,7 +31,7 @@ function UserSurvey(props) {
     return (
         <Card id={baseId} classes={{ root: classes.legacyCard }}>
             <CardHeader
-                style={{ backgroundColor: theme.palette.secondary.main }}
+                style={{ backgroundColor: theme.palette.primary.main }}
                 avatar={
                     <NewReleases
                         style={{ color: theme.palette.gold }}
@@ -39,7 +39,7 @@ function UserSurvey(props) {
                     />
                 }
                 title={
-                    <Typography variant="subtitle2">
+                    <Typography variant="subtitle2" color="white">
                         {t("cyverseTransition")}
                     </Typography>
                 }
