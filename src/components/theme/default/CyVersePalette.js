@@ -20,12 +20,12 @@ const newPalette = {
     blueGrey: "#48515f",
     bgGray: "#f4f4f4",
     black: "#000000",
-    darkNavy: "#142248",
+    darkNavy: "#194071", // UM color
     navy: "#004471",
-    cobalt: "#0971AB", // primary
+    cobalt: "#1F64B0", // primary UM Color
     sky: "#99D9EA",
     yellow: "#F7D21E",
-    gold: "#F8981D",
+    gold: "#FCB415", //UM Gold
     violet: "#AA2173",
     indigo: "#4A2E8D",
     leaf: "#378F43",

@@ -54,9 +54,11 @@ export default function Banner(props) {
             >
                 <Grid item xs={isMobile ? 12 : 6}>
                     <Image
-                        src="/scienceBanner.svg"
-                        alt={t("banner")}
-                        height={400}
+                        src="/umLogo.png"
+                        alt={t(
+                            "University of Manitoba | Rady Faculty of Health Sciences"
+                        )}
+                        height={200}
                         width={800}
                         loading="eager"
                         layout="responsive"
