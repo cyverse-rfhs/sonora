@@ -1,14 +1,14 @@
-apiVersion: skaffold/v1
+apiVersion: skaffold/v3
 kind: Config
 metadata:
   name: sonora
-deploy:
-  kubectl:
-    manifests:
-      - k8s/sonora.yml
 build:
-  tagPolicy:
-    gitCommit: {}
   artifacts:
     - image: harbor.cyverse.org/de/sonora
-  local: {}
+      docker:
+        dockerfile: Dockerfile
+      platforms:
+        - linux/amd64
+manifests:
+  rawYaml:
+    - k8s/sonora.yml
